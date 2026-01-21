@@ -5,20 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magna Adytum Mysteriorum</title>
     <style>
-        body { background-color: #050505; color: #c5a059; font-family: 'Georgia', serif; margin: 0; padding: 0; display: flex; flex-direction: column; align-items: center; }
+        body { 
+            background-color: #050505; 
+            color: #c5a059; 
+            font-family: 'Georgia', serif; 
+            margin: 0; 
+            padding: 0; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            min-height: 100vh;
+        }
         header { padding: 40px 20px; text-align: center; }
-        img.logo { max-width: 250px; border: 1px solid #c5a059; box-shadow: 0 0 30px rgba(197, 160, 89, 0.1); margin-bottom: 20px; }
+        img.logo { 
+            max-width: 250px; 
+            border: 1px solid #c5a059; 
+            box-shadow: 0 0 30px rgba(197, 160, 89, 0.1); 
+            margin-bottom: 20px; 
+        }
         h1 { letter-spacing: 4px; text-transform: uppercase; font-size: 1.8rem; margin: 10px 0; }
-        .manifiesto { max-width: 700px; line-height: 1.6; font-style: italic; color: #d1d1d1; padding: 0 20px; margin-bottom: 50px; border-bottom: 1px solid #333; padding-bottom: 30px; }
+        .manifiesto { 
+            max-width: 700px; 
+            line-height: 1.6; 
+            font-style: italic; 
+            color: #d1d1d1; 
+            padding: 0 20px; 
+            margin-bottom: 50px; 
+            border-bottom: 1px solid #333; 
+            padding-bottom: 30px; 
+            text-align: center;
+        }
         
         /* Contenedor de las Cámaras */
-        .grid-camaras { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; width: 90%; max-width: 1000px; margin-bottom: 60px; }
+        .grid-camaras { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+            gap: 25px; 
+            width: 90%; 
+            max-width: 1000px; 
+            margin-bottom: 60px; 
+        }
         
-        .camara { border: 1px solid #3d3423; background: #0a0a0a; padding: 30px; text-decoration: none; color: inherit; transition: all 0.4s ease; position: relative; overflow: hidden; }
-        .camara:hover { border-color: #c5a059; box-shadow: 0 0 15px rgba(197, 160, 89, 0.3); transform: translateY(-5px); }
+        .camara { 
+            border: 1px solid #3d3423; 
+            background: #0a0a0a; 
+            padding: 30px; 
+            text-decoration: none; 
+            color: inherit; 
+            transition: all 0.4s ease; 
+            position: relative; 
+            overflow: hidden; 
+        }
+        .camara:hover { 
+            border-color: #c5a059; 
+            box-shadow: 0 0 15px rgba(197, 160, 89, 0.3); 
+            transform: translateY(-5px); 
+        }
         .camara h3 { margin: 0 0 10px 0; text-transform: uppercase; letter-spacing: 2px; color: #c5a059; }
         .camara p { font-size: 0.9rem; color: #a0a0a0; line-height: 1.4; margin: 0; }
-        .camara::before { content: '◈'; position: absolute; top: 10px; right: 10px; font-size: 0.8rem; opacity: 0.5; }
+        .camara::before { 
+            content: '◈'; 
+            position: absolute; 
+            top: 10px; 
+            right: 10px; 
+            font-size: 0.8rem; 
+            opacity: 0.5; 
+        }
     </style>
 </head>
 <body>
@@ -37,7 +89,7 @@
             <p>Tratados de hechicería antigua, maldiciones y sortilegios olvidados por el tiempo.</p>
         </a>
 
-        <a href="Teurgias.html" class="camara">
+        <a href="teurgias.html" class="camara">
             <h3>Cámara de las Teurgias</h3>
             <p>Magia práctica: Invocaciones de entidades y el arte de contactar con lo invisible.</p>
         </a>
@@ -53,7 +105,7 @@
         </a>
     </div>
 
-    <footer style="margin-bottom: 40px; font-size: 0.7rem; opacity: 0.4; letter-spacing: 2px;">
+    <footer style="margin-top: auto; margin-bottom: 40px; font-size: 0.7rem; opacity: 0.4; letter-spacing: 2px;">
         PONTIFICE ADYTUM — MMXXVI
     </footer>
 
